@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:serpentmint/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:serpentmint/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:serpentmint/prow:hmacToken
+segmentWriteKey: vault:serpentmint:segmentWriteKey
